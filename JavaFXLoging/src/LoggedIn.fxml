@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoggedInController">
+   <children>
+      <Label fx:id="LabelWelcome" layoutX="251.0" layoutY="62.0" text="Welcome!">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelChannel" layoutX="126.0" layoutY="153.0" text="Your Favorite Channel is CODEPRO ">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="ButtonLogOut" layoutX="231.0" layoutY="275.0" mnemonicParsing="false" onAction="#btnLogOutClicked" prefHeight="35.0" prefWidth="139.0" style="-fx-background-color: #FED700;" text="LogOut">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
